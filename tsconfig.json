@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "baseUrl": ".",
+        "outDir": "build/dist",
+        "module": "commonjs",
+        "target": "es5",
+        "lib": ["es5", "es6", "es7", "es2017", "dom"],
+        "sourceMap": true,
+        "allowJs": true,
+        "jsx": "react",
+        "moduleResolution": "node",
+        "rootDirs": ["./src", "./stories"],
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "importHelpers": true,
+        "strictNullChecks": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noUnusedLocals": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "paths": {}
+    },
+    "include": ["src/**/*", "stories/**/*/"],
+    "exclude": [
+        "postcss.config.js",
+        "config",
+        "node_modules",
+        "build",
+        "scripts",
+        "acceptance-tests",
+        "webpack",
+        "jest",
+        "src/setupTests.ts"
+    ]
+}
